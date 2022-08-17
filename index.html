@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="shortcut icon" href="calculadora.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <!--Aréa de tela do menu-->
+     <div class="container">
+      <div class="output"></div>
+      <!----O elemento de saída (<output>) é um elemento no qual um site ou aplicativo pode injetar os resultados de um cálculo ou o resultado de uma ação do usuário.-->
+         <input type="text" placeholder="0" readonly>
+     </div>
+
+       <!--Btns --Botões-->
+     <div class="btns">
+       <button onclick="crl()" class="sp">C</button> 
+       <button onclick="del()" class="sp">DEL</button>
+       <button onclick="insert('%')" class="sp">%</button>
+       <button onclick="insert('/')" class="sp">÷</button>
+       <button onclick="insert('7')" class="sp">7</button>
+       <button onclick="insert('8')" class="sp">8</button>
+       <button onclick="insert('9')" class="sp">9</button>
+       <button onclick="insert('*')" class="sp">x</button>
+       <button onclick="insert('4')" class="sp">4</button>
+       <button onclick="insert('5')" class="sp">5</button>
+       <button onclick="insert('6')" class="sp">6</button>
+       <button onclick="insert('-')" class="sp">-</button>
+       <button onclick="insert('1')" class="sp">1</button>
+       <button onclick="insert('2')" class="sp">2</button>
+       <button onclick="insert('3')" class="sp">3</button>
+       <button onclick="insert('+')" class="sp">+</button>
+       <button onclick="insert('0')" class="sp">0</button>
+       <button onclick="insert('.')" class="sp">.</button>
+       <button onclick="calc('=')" class="sp equal">=</button>
+     </div>
+
+     <!---appmenu-->
+     <div>
+      <div class="appmenu"></div>
+       <div class="icon"></div>
+         <span></span>
+         <span></span>
+         <span></span>
+     </div>
+
+     <!---Cores do menu-->
+     <div class="menu">
+
+      <div class="blue"></div>
+       <div class="orange"></div>
+       <div class="red"></div>
+       <div class="purple"></div>
+       <div class="pink"></div>
+       
+     </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
